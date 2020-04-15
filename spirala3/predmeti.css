@@ -1,0 +1,556 @@
+body {
+    background-image: url("https://i.ibb.co/ZXK4yjb/background3.jpg");
+}
+
+#stranica {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 285px 60px 70px auto auto auto auto auto 70px auto auto auto auto auto 125px;
+}
+
+.baner {
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.picture1 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+}
+
+.naziv {
+    font-size: 280%;
+    margin-top: 6%;
+    margin-left: 41.5%;
+}
+
+.prvagodina{
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.drugagodina{
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+.heading{
+    font-size:185%;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+#RS {
+    padding: 10px;
+    font-size:150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+
+#UUP {
+    padding: 10px;
+    font-size:150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+.uupnaslov{
+    padding: 7px;
+    font-size:165%;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.uupopis {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.listatemauup {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.brojeviuup {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.asistentuup {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.profesoriuup {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+#TP {
+    padding: 10px;
+    font-size:150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+
+#UBP {
+    padding: 10px;
+    font-size:150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+
+.ubpnaslov {
+    padding: 7px;
+    font-size: 165%;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.ubpopis {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.listatemaubp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.brojeviubp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.asistentiubp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.profesoriubp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+
+#VIS {
+    padding: 10px;
+    font-size:150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+
+#FWT {
+    padding: 10px;
+    font-size: 150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+.fwtnaslov {
+    padding: 7px;
+    font-size: 165%;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.fwtopis {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.listatemafwt {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.brojevifwt {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.asistentifwt {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.profesorifwt {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+
+.buttons{
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.zad3{
+    margin-top: 5px;
+    height:50px;
+    width:150px;
+    background-color: steelblue;
+    margin-left:180px;
+}
+.zad2{
+    margin-top: 5px;
+    height:50px;
+    width:150px;
+    background-color: royalblue;
+    margin-left:180px;
+}
+
+
+
+#MUR2 {
+    padding: 10px;
+    font-size:150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+
+#MUR1 {
+    padding:10px;
+    font-size: 150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 230px 130px 50px;
+}
+.murnaslov {
+    padding: 7px;
+    font-size: 165%;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.muropis {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.listatemamur {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.brojevimur {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.asistentimur {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.profesorimur {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+
+#RAM {
+    padding: 10px;
+    font-size:150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+
+#RP {
+    padding: 10px;
+    font-size: 150%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 55px 180px 180px 50px;
+}
+.rpnaslov {
+    padding: 7px;
+    font-size: 165%;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.rpopis {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.listatemarp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.brojevirp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.asistentirp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.profesorirp {
+    padding: 7px;
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+
+
+#UUP {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#UBP {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#FWT {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#MUR1 {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+#RP {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+#RS {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+#TP {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 11;
+    grid-row-end: 12;
+}
+#VIS {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
+#MUR2 {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 13;
+    grid-row-end: 14;
+}
+#RAM {
+    background: rgba(0,0,255,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 14;
+    grid-row-end: 15;
+}
+
+
+.footer {
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 15;
+    grid-row-end: 16;
+    font-style: italic;
+}
+
+.link {
+    font-size: 18px;
+}
+
+.dno {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.link {
+    font-size: 150%;
+    margin-left: 45.5%;
+    margin-top: 1.5%;
+    text-align: center;
+}

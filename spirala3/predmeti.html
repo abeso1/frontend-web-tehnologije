@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <link rel="stylesheet" href="predmeti.css" />
+    <title>Predmeti</title>
+</head>
+<body>
+    <div id="stranica">
+        <div class="baner">
+            <img class="picture1" src="https://i.ibb.co/r45bgrC/etflogologo.png" alt="ETF" />
+            <h1 class="naziv">Razvoj softvera</h1>
+            <ul class="meni1">
+                <li><a href="pocetna.html">Pocetna</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="godine.html">Godine</a></li>
+                <li><a href="osoblje.html">Osoblje</a></li>
+                <li><a href="laboratorije.html">Laboratorije</a></li>
+                <li><a href="predmeti.html">Predmeti</a></li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="zad3" onclick="sortiraj('1')">Prva godina</button>
+            <button type="button" class="zad3" onclick="sortiraj('2')">Druga godina</button>
+            <button type="button" class="zad3" onclick="sortiraj('3')">Svi predmeti</button>
+            <button type="button" class="zad2" onclick="sortirajabecedno()">Sortiraj abecedno</button>
+        </div>
+
+        <div class="prvagodina">
+            <p class="heading">PRVA GODINA</p>
+        </div>
+
+        <div id="UUP">
+
+                <div class="uupnaslov">Uvod u programiranje</div>
+
+                <div class="uupopis">
+                    Student koji uspje�no zavr�i predmet �e imati sljede�e kompetencije:
+                    <ul>
+                        <li>konceptualno razumijevanje strategija za rje�avanje problema koriste�i algoritamski pristup;</li>
+                        <li>razumijevanje osnovne terminologije koja se koristi u programiranju;</li>
+                        <li>
+                            dizajn jednostavnih programa u programskom jeziku C, �to uklju�uje:
+                            naredbe za kontrolu toka programa, nizove, strukture, funkcije, pokaziva�e i ulazno-izlazne operacije,
+                        </li>
+                        <li>pisanje, kompajliranje i debagiranje jednostavnih programa u programskom jeziku C.</li>
+                    </ul>
+                </div>
+
+                <div class="listatemauup">
+                    Lista tema na predmetu "Uvod u programiranje":
+                    <ul>
+                        <li>Uslovi i grananje</li>
+                        <li>Petlje</li>
+                        <li>Nizovi</li>
+                        <li>Matrice</li>
+                    </ul>
+                </div>
+
+                <div class="brojeviuup">
+                    <ul>
+                        <li>Broj predavanja: 80</li>
+                        <li>Broj tutorijali: 50</li>
+                        <li>Broj vje�bi: 30</li>
+                    </ul>
+                </div>
+
+                <div class="asistentuup">Asistent: Mirza Mesihovi�</div>
+                <div class="profesoriuup">Profesor: Vedran Ljubovi�</div>
+            
+        </div>
+
+
+
+        <div id="UBP">
+            <div class="ubpnaslov">Uvod u baze podataka</div>
+
+            <div class="ubpopis">
+                Student koji uspje�no zavr�i predmet �e imati sljede�e kompetencije:
+                <ul>
+                    <li>rad i upoznavanje sa Oracle bazom podataka</li>
+                    <li>rad i upoznavanje sa MySQL bazom podataka;</li>
+                    <li>rad u programu SQL Tools;</li>
+                    <li>crtanje i pisanje ERD dijagrama.</li>
+                </ul>
+            </div>
+
+            <div class="listatemaubp">
+                Lista tema na predmetu "Uvod u baze podataka":
+                <ul>
+                    <li>Oracle baza podataka</li>
+                    <li>MySQL baza podataka</li>
+                    <li>SQL Tools</li>
+                    <li>ERD dijagrami</li>
+                </ul>
+            </div>
+
+            <div class="brojeviubp">
+                <ul>
+                    <li>Broj predavanja: 70</li>
+                    <li>Broj tutorijali: 45</li>
+                    <li>Broj vje�bi: 25</li>
+                </ul>
+            </div>
+
+            <div class="asistentiubp">Asistent: Emir Cogo</div>
+            <div class="profesoriubp">Profesor: Emir Buza</div>
+        </div>
+
+
+
+
+        <div id="FWT">
+            <div class="fwtnaslov">Frontend Web Tehnologije</div>
+
+            <div class="fwtopis">
+                Student koji uspje�no zavr�i predmet �e imati sljede�e kompetencije:
+                <ul>
+                    <li>rad i upoznavanje sa HyperText Mark-up Language(HTML);</li>
+                    <li>rad i upoznavanje sa Cascading Style Sheet(CSS);</li>
+                    <li>pravljenje web stranice;</li>
+                    <li>rad sa adaptivnim i responzivnim web tehnologijama</li>
+                </ul>
+            </div>
+
+            <div class="listatemafwt">
+                Lista tema na predmetu "Frontweb Web Tehnologije":
+                <ul>
+                    <li>HyperText Mark-up Language(HTML)</li>
+                    <li>Cascading Style Sheet(CSS)</li>
+                    <li>Adaptivni web dizajn(AWP)</li>
+                    <li>Responzivni web dizajn(RWP)</li>
+                </ul>
+            </div>
+
+            <div class="brojevifwt">
+                <ul>
+                    <li>Broj predavanja: 70</li>
+                    <li>Broj tutorijali: 45</li>
+                    <li>Broj vje�bi: 25</li>
+                </ul>
+            </div>
+
+            <div class="asistentifwt">Asistent: Irfan Prazina</div>
+            <div class="profesorifwt">Profesor: Vensada Okanovi�</div>
+        </div>
+
+
+
+
+        <div id="MUR1">
+            <div class="murnaslov">Matematika u ra�unarstvu 1</div>
+
+            <div class="muropis">
+                Cilj kursa je ponuditi studentima najosnovnija znanja iz nekih matemati�kih disciplina koje imaju primjene u ra�unarstvu, 
+                kao �to su matemati�ka logika, teorija skupova, elementarna teorija brojeva, kombinatorika s osnovama teorije vjerovatno�e, 
+                teorija grafova, te teorija automata i formalnih jezika.
+            </div>
+
+            <div class="listatemamur">
+                Lista tema na predmetu "Matematika u ra�unarstvu 1":
+                <ul>
+                    <li>Matemati�ka logika</li>
+                    <li>Teorija skupova</li>
+                    <li>Elementarna teorija skupova</li>
+                    <li>Kombinatorika</li>
+                    <li>Teorija grafova</li>
+                    <li>Teorija automata i formalnih jezika</li>
+                </ul>
+            </div>
+
+            <div class="brojevimur">
+                <ul>
+                    <li>Broj predavanja: 90</li>
+                    <li>Broj tutorijali: 55</li>
+                    <li>Broj vje�bi: 35</li>
+                </ul>
+            </div>
+
+            <div class="asistentimur">Asistent: Hana Bezdrob</div>
+            <div class="profesorimur">Profesor: Razija Tur�inhod�i� i �eljko Juri�</div>
+        </div>
+
+
+
+        <div id="RP">
+            <div class="rpnaslov">Ra�unarska pismenost</div>
+
+            <div class="rpopis">
+                Na predavanjima se obra�uju temeljni koncepti iz ra�unarstva i informatike. 
+                Lica se upoznaju sa razli�itim komponentama ra�unara, razli�itim sistemima i njihovim me�usobnim povezivanjem, 
+                kao i strategijama rje�avanja problema. Pored prikaza temeljnih pojmova iz ra�unarstva, 
+                predavanja uklju�uju veliki broj primjera savremenimh komponenti koji ilustriraju uvedene koncepte. 
+                Laboratorijske vje�be i doma�e zada�e uklju�uju dodatne primjere i probleme koji su blisko povezani sa predavanjima, 
+                te na taj na�in doprinose razvoju kompetencija lica da razumije osnovne probleme savremenih ra�unarskih sistema.
+            </div>
+
+            <div class="listatemarp">
+                Lista tema na predmetu "Ra�unarska pismenost":
+                <ul>
+                    <li>Vrste pismenosti</li>
+                    <li>Binarni brojevi</li>
+                    <li>Linux</li>
+                    <li>Latex</li>
+                </ul>
+            </div>
+
+            <div class="brojevirp">
+                <ul>
+                    <li>Broj predavanja: 70</li>
+                    <li>Broj tutorijali: 45</li>
+                    <li>Broj vje�bi: 25</li>
+                </ul>
+            </div>
+            <div class="asistentirp">Asistent: Edvin Teskered�i�</div>
+            <div class="profesorirp">Profesor: Amila Akagi�</div>
+            </div>
+
+
+
+            <div class="drugagodina">
+                    <p class="heading">DRUGA GODINA</p>
+                </div>
+        
+                <div id="RS">
+        
+                        <div class="uupnaslov">Razvoj softvera</div>
+        
+                        <div class="uupopis">
+                            Student koji uspje�no zavr�i predmet �e imati sljede�e kompetencije:
+                            <ul>
+                                <li>konceptualno razumijevanje strategija za rje�avanje problema koriste�i algoritamski pristup;</li>
+                                <li>razumijevanje osnovne terminologije koja se koristi u programiranju;</li>
+                                <li>
+                                    dizajn jednostavnih programa u programskom jeziku C, �to uklju�uje:
+                                    naredbe za kontrolu toka programa, nizove, strukture, funkcije, pokaziva�e i ulazno-izlazne operacije,
+                                </li>
+                                <li>pisanje, kompajliranje i debagiranje jednostavnih programa u programskom jeziku C.</li>
+                            </ul>
+                        </div>
+        
+                        <div class="listatemauup">
+                            Lista tema na predmetu "Uvod u programiranje":
+                            <ul>
+                                <li>Uslovi i grananje</li>
+                                <li>Petlje</li>
+                                <li>Nizovi</li>
+                                <li>Matrice</li>
+                            </ul>
+                        </div>
+        
+                        <div class="brojeviuup">
+                            <ul>
+                                <li>Broj predavanja: 80</li>
+                                <li>Broj tutorijali: 50</li>
+                                <li>Broj vje�bi: 30</li>
+                            </ul>
+                        </div>
+        
+                        <div class="asistentuup">Asistent: Mirza Mesihovi�</div>
+                        <div class="profesoriuup">Profesor: Vedran Ljubovi�</div>
+                    
+                </div>
+        
+        
+        
+                <div id="TP">
+                    <div class="ubpnaslov">Tehnike programiranja</div>
+        
+                    <div class="ubpopis">
+                        Student koji uspje�no zavr�i predmet �e imati sljede�e kompetencije:
+                        <ul>
+                            <li>rad i upoznavanje sa Oracle bazom podataka</li>
+                            <li>rad i upoznavanje sa MySQL bazom podataka;</li>
+                            <li>rad u programu SQL Tools;</li>
+                            <li>crtanje i pisanje ERD dijagrama.</li>
+                        </ul>
+                    </div>
+        
+                    <div class="listatemaubp">
+                        Lista tema na predmetu "Uvod u baze podataka":
+                        <ul>
+                            <li>Oracle baza podataka</li>
+                            <li>MySQL baza podataka</li>
+                            <li>SQL Tools</li>
+                            <li>ERD dijagrami</li>
+                        </ul>
+                    </div>
+        
+                    <div class="brojeviubp">
+                        <ul>
+                            <li>Broj predavanja: 70</li>
+                            <li>Broj tutorijali: 45</li>
+                            <li>Broj vje�bi: 25</li>
+                        </ul>
+                    </div>
+        
+                    <div class="asistentiubp">Asistent: Emir Cogo</div>
+                    <div class="profesoriubp">Profesor: Zeljko Juric</div>
+                </div>
+        
+        
+        
+        
+                <div id="VIS">
+                    <div class="fwtnaslov">Vjerovatnoca i statistika</div>
+        
+                    <div class="fwtopis">
+                        Student koji uspje�no zavr�i predmet �e imati sljede�e kompetencije:
+                        <ul>
+                            <li>rad i upoznavanje sa HyperText Mark-up Language(HTML);</li>
+                            <li>rad i upoznavanje sa Cascading Style Sheet(CSS);</li>
+                            <li>pravljenje web stranice;</li>
+                            <li>rad sa adaptivnim i responzivnim web tehnologijama</li>
+                        </ul>
+                    </div>
+        
+                    <div class="listatemafwt">
+                        Lista tema na predmetu "Frontweb Web Tehnologije":
+                        <ul>
+                            <li>HyperText Mark-up Language(HTML)</li>
+                            <li>Cascading Style Sheet(CSS)</li>
+                            <li>Adaptivni web dizajn(AWP)</li>
+                            <li>Responzivni web dizajn(RWP)</li>
+                        </ul>
+                    </div>
+        
+                    <div class="brojevifwt">
+                        <ul>
+                            <li>Broj predavanja: 70</li>
+                            <li>Broj tutorijali: 45</li>
+                            <li>Broj vje�bi: 25</li>
+                        </ul>
+                    </div>
+        
+                    <div class="asistentifwt">Asistent: Irfan Prazina</div>
+                    <div class="profesorifwt">Profesor: Amela Muratovic Ribic</div>
+                </div>
+        
+        
+        
+        
+                <div id="MUR2">
+                    <div class="murnaslov">Matematika u ra�unarstvu 2</div>
+        
+                    <div class="muropis">
+                        Cilj kursa je ponuditi studentima najosnovnija znanja iz nekih matemati�kih disciplina koje imaju primjene u ra�unarstvu, 
+                        kao �to su matemati�ka logika, teorija skupova, elementarna teorija brojeva, kombinatorika s osnovama teorije vjerovatno�e, 
+                        teorija grafova, te teorija automata i formalnih jezika.
+                    </div>
+        
+                    <div class="listatemamur">
+                        Lista tema na predmetu "Matematika u ra�unarstvu 1":
+                        <ul>
+                            <li>Matemati�ka logika</li>
+                            <li>Teorija skupova</li>
+                            <li>Elementarna teorija skupova</li>
+                            <li>Kombinatorika</li>
+                        </ul>
+                    </div>
+        
+                    <div class="brojevimur">
+                        <ul>
+                            <li>Broj predavanja: 90</li>
+                            <li>Broj tutorijali: 55</li>
+                            <li>Broj vje�bi: 35</li>
+                        </ul>
+                    </div>
+        
+                    <div class="asistentimur">Asistent: Hana Bezdrob</div>
+                    <div class="profesorimur">Profesor: Fatih Destovic</div>
+                </div>
+        
+        
+        
+                <div id="RAM">
+                    <div class="rpnaslov">Ra�unarske arhitekture i mreze</div>
+        
+                    <div class="rpopis">
+                        Na predavanjima se obra�uju temeljni koncepti iz ra�unarstva i informatike. 
+                        Lica se upoznaju sa razli�itim komponentama ra�unara, razli�itim sistemima i njihovim me�usobnim povezivanjem, 
+                        kao i strategijama rje�avanja problema. Pored prikaza temeljnih pojmova iz ra�unarstva, 
+                        predavanja uklju�uju veliki broj primjera savremenimh komponenti koji ilustriraju uvedene koncepte. 
+                        Laboratorijske vje�be i doma�e zada�e uklju�uju dodatne primjere i probleme koji su blisko povezani sa predavanjima, 
+                        te na taj na�in doprinose razvoju kompetencija lica da razumije osnovne probleme savremenih ra�unarskih sistema.
+                    </div>
+        
+                    <div class="listatemarp">
+                        Lista tema na predmetu "Ra�unarska pismenost":
+                        <ul>
+                            <li>Vrste pismenosti</li>
+                            <li>Binarni brojevi</li>
+                            <li>Linux</li>
+                            <li>Latex</li>
+                        </ul>
+                    </div>
+        
+                    <div class="brojevirp">
+                        <ul>
+                            <li>Broj predavanja: 70</li>
+                            <li>Broj tutorijali: 45</li>
+                            <li>Broj vje�bi: 25</li>
+                        </ul>
+                    </div>
+                    <div class="asistentirp">Asistent: Edvin Teskered�i�</div>
+                    <div class="profesorirp">Profesor: Samir Ribic</div>
+                    </div>
+
+            <div class="footer">
+                <h2 class="dno">Elektrotehni�ki fakultet u Sarajevu - Razvoj softvera  </h2>
+                <a class="link" href="http://etf.unsa.ba/">stranica ETF-a</a>
+            </div>
+        </div>
+
+<script src="skripta.js"></script>
+</body>
+</html> 
