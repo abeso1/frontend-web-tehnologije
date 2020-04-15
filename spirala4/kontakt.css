@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://i.ibb.co/ZXK4yjb/background3.jpg");
+}
+.stranicakontakt {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 270px 195px;
+}
+.baner {
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.picturelogo {
+    float: left;
+    height: 50%;
+    margin-left: 0%;
+}
+
+.naziv {
+    font-size: 280%;
+    margin-top: 6%;
+    margin-left: 41.5%;
+}
+.tabelakontakt{
+    padding-bottom:10px;
+    padding-left:3px;
+    padding-top:10px;
+}
+
+.forma {
+    background: rgba(0,0,0,0.4);
+/*    grid-column-start: 3;
+    grid-column-end: 4;*/
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.submit{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.footer {
+    background: rgba(0,0,0,0.4);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-style: italic;
+}
+.dno {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.link {
+    font-size: 150%;
+    margin-left: 45.5%;
+    margin-top: 5.5%;
+    text-align: center;
+}
